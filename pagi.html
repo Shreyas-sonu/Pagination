@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <style>
+        .pagination {
+        display: inline-block;
+        margin-top: 1vh;
+        padding-top: 1vh;
+        }
+
+        .pagination a {
+        color: black;
+        border-width: xxx-thin;
+        border: 1px solid rgb(62, 62, 62);
+        float: left;
+        padding: 4px 25px;
+        text-decoration: none;
+        transition: 0.3s all ease-in-out;
+        }
+        .pagination a:hover{
+            background-color: lightgray;
+              font-weight: 600;
+            font-size: 12px;
+        }
+        .pagination .next-b{
+            position: relative;
+            top: -0.8vh;
+            /* margin-left: 20px; */
+            border: 2px solid orange;
+            color: orange;
+            background-color: white;
+            width: 90px;
+            height: 35px;
+            align-content: flex-start;
+            border-radius: 10px;
+            transition: 0.3s all ease-in-out;
+        }
+        .pagination .next-b:hover{
+            background-color: lightgray;
+            border-width: 3px;
+            font-weight: 600;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="pagination">
+  <a href="#" class="prev-b">&laquo; Previous</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <button class="next-b">Next</button>
+</div>
+</body>
+</html>
